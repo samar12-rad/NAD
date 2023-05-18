@@ -1,0 +1,155 @@
+#backgroundy{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/HTML/Portfolio/WhatsApp\ Image\ 2022-12-11\ at\ 00.34.54.jpg);
+    background-size: cover;
+    background-position: center;
+}
+body{
+    background: #080808;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.logo{
+    width: 80px;
+}
+
+.container{
+    padding: 10px 10%;
+}
+
+nav{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 150px;
+    display: inline-block;
+    list-style: none;
+    margin: 10px 10px;
+
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    position: relative;
+}
+
+nav ul li a::after{
+    content: " ";
+    width: 0;
+    height: 4px;
+    background: black;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+
+}
+
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+
+.header-text{
+    margin-top:  15%;
+    font-size: 30px;
+}
+
+.header-text h1{
+
+}
+
+.header-text h1 span{
+    color: #080808;
+}
+
+.row{
+    margin: 0px;
+    padding: 80px  150px;
+    width: 100%vw;
+    background-color: rgb(18,17,33);
+    margin-top: 100vh;
+    position: absolute;
+    
+    align-items: center;
+   
+    
+}
+
+
+.about{
+    display: inline;
+    position: relative;
+    float: left;
+    width: 100%vw;
+}
+
+#second-image{
+    height: 600px;
+}
+
+
+
+
+
+#buttuns {
+    text-decoration: none;
+     width: 100%;
+     display: flex;
+     justify-content: space-evenly;
+     padding: 50px;
+ 
+ }
+ 
+ #buttuns a {
+     font-size: 100px;
+     text-decoration: none;
+ 
+ }
+
+
+ #buttuns a {
+    width: max-content;
+    height: max-content;
+    padding: 10px;
+    background-color: rgb(57, 49, 49);
+    font-size: 50px;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: 1s;
+}
+
+
+iframe{
+    width: 80vw;
+    height: 900px;
+}
+
+
+#row h1 {
+    margin: auto;
+}
