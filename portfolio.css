@@ -77,7 +77,9 @@ nav ul li a:hover::after{
 }
 
 .header-text h1 span{
-    color: #080808;
+    color: black;
+    text-shadow: 2px 2px 5px red;
+
 }
 
 .row{
