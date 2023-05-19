@@ -86,7 +86,8 @@ nav ul li a:hover::after{
     margin: 0px;
     padding: 80px  150px;
     width: 100%vw;
-    background-image: linear-gradient( 135deg, #A0FE65 10%, #FA016D 100%);
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,0.8576680672268908) 50%, rgba(252,176,69,1) 100%);
     margin-top: 100vh;
     position: absolute;
     
@@ -131,7 +132,8 @@ nav ul li a:hover::after{
     width: max-content;
     height: max-content;
     padding: 10px;
-    background-color: rgb(57, 49, 49);
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(0,0,0,0.891281512605042) 60%);
     font-size: 50px;
     text-decoration: none;
     text-decoration-line: none;
